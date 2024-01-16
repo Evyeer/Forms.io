@@ -1,0 +1,30 @@
+.nav div{
+    height: 4px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.527), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.nav{
+    width: 30px;
+    display: block;
+    margin: 1em 0 0 1em;
+   
+}
+.um{
+    width: 30px;
+}
+.dois{
+    width: 20px;
+}
+.tres{
+    width: 25px;
+}
+
+.nav:hover div{
+    width: 32px;
+    background: linear-gradient(to right, rgba(7, 15, 17, 0.397), rgba(4, 16, 20, 0.356));
+}
+

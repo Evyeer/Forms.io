@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Aula</title>
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/pag1.css">
+</head>
+<body>
+<header><fieldset class="fld"><h1 class="hdr">Formulário</h1></fieldset></header>
+
+
+
+<div class="mid">
+    <fieldset id="setto">
+    <form>
+        <ul>
+            <li>
+                <label id="nome" for="nome">Nome</label>
+                <input required type="text" maxlength="30" min="5">
+            </li><br>
+            <li>
+                <label id="sobnome" for="sobnome">Sobrenome</label>
+                <input required type="text" maxlength="30" min="5">
+            </li>
+            </li><br>
+            <li>
+                <label id="tel" for="tel">Telefone</label>
+                <input type="tel" maxlength="13" required pattern="\([0-9]{2}\)[0-9]{4}.[0-9]{4}">
+            </li><br><br>
+            <li>
+                <label for="nasc">Data de nascimento</label>
+                <input type="date" id="date" min="01/01/1900" max="31/12/2010">
+            </li>
+            </li><br><br>
+            <li>
+                <label for="sexo">Sexualidade</label>
+                <select required name="sexo" id="sexo">
+                    <option value="Selecione" selected >Selecione</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Helicoptero">Helicoptero de ataque</option>
+                    <option value="Rai">Raissassexual</option>
+                    <option value="Primarai">Prima do Rai</option>
+                    <option value="anarosa">AnalRosa</option>
+                </select>
+            </li>
+            </li><br>
+            <li>
+                <label for="info">Por onde ouviu falar de nós?</label><br>
+                <select name="info" id="info">
+                    <option value="" selected>Selecione</option>
+                    <option value="anuncio">Anúncio no youtube</option>
+                    <option value="recom">Recomendação de amigo</option>
+                    <option value="pesquisa">Fiz minhas pesquisas</option>
+                    <option value="mentak">Eu tenho sérios problemas mentais</option>
+                    <option value="acaso">Achei por acaso</option>
+                    <option value="heli">Sou um helicoptero</option>
+                    <option value="avi">Sou um avião</option>
+                    <option value="tv">Propaganda na TV</option>
+                    <option value="ns">Não sei</option>
+                </select>
+                <h2>Por fim, diga mais sobre você em até 19.4 linhas.</h2>
+
+                <textarea required name="area" id="area" cols="40" rows="6"  maxlength="19.4" minlength="19.4"></textarea>
+            </li>
+        </ul>
+        <input type="submit" value="Enviar" id="enviar">
+        <input type="reset" value="Limpar" id="limpar">
+
+    </form>
+</fieldset>
+</div>
+
+<a href="" class="nav">
+    <div class="um"></div>
+    <div class="dois"></div>
+    <div class="tres"></div>
+</a>
+
+
+
+
+</body>
+</html>
