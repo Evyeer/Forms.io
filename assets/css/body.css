@@ -1,4 +1,42 @@
 body{
     margin: 0;
-    background: url(/assets/img/pexel1080.jpg) no-repeat;
+    background: url(/assets/img/pexels.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
+
+
+@media only screen and (min-width: 600px) {
+   body{
+    margin: 0;
+    background: url(/assets/img/pexels.jpg) no-repeat center center fixed;
+    background-size: cover;
+   }
+   
+   
+  }
+
+  @media only screen and (min-width: 768px) {
+    
+    body{
+        margin: 0;
+        background: url(/assets/img/pexels.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+    
+    
+ 
+  }
+  
+
+
+  @media only screen and (min-width: 1024px) {
+    
+    body{
+        margin: 0;
+        background: url(/assets/img/pexels.jpg) no-repeat center center fixed;
+        background-size: cover;
+       }
+    
+    
+
+  }
