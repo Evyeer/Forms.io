@@ -29,7 +29,7 @@
             </li><br>
             <li>
                 <label id="tel" for="tel">Telefone</label>
-                <input type="tel" maxlength="13" required pattern="\([0-9]{2}\)[0-9]{4}.[0-9]{4}">
+                <input type="tel" maxlength="13" required pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}" placeholder="(99)99999-9999">
             </li><br><br>
             <li>
                 <label for="nasc">Data de nascimento</label>
@@ -43,7 +43,6 @@
                     <option value="Masculino">Masculino</option>
                     <option value="Feminino">Feminino</option>
                     <option value="n/r">Não responder</option>
-                    
                 </select>
             </li>
             </li><br>
@@ -54,11 +53,11 @@
                     <option value="anuncio">Anúncio no youtube</option>
                     <option value="recom">Recomendação de amigo</option>
                     <option value="pesquisa">Fiz minhas pesquisas</option>
-                    
+
                 </select>
                 <h2>Por fim, diga mais sobre você em até 120 caracteres.</h2>
 
-                <textarea required name="area" id="area" cols="40" rows="6"  maxlength="120" minlength="20"></textarea>
+                <textarea required name="area" id="area" cols="40" rows="6"  maxlength="19.4" minlength="120"></textarea>
             </li>
         </ul>
         <input type="submit" value="Enviar" id="enviar">
