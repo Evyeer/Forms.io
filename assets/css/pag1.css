@@ -63,7 +63,7 @@
     color: black;
 }
 
-#setto h2{
+/* #setto h2{
     font-size: 20px;
     position: relative;
     right: 25px;
@@ -71,7 +71,7 @@
     background: linear-gradient(to right, rgba(7, 15, 17, 0.397), rgba(4, 16, 20, 0.356));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 
 #area{
     border: none;
@@ -195,7 +195,7 @@
     }
 
     
-    #setto h2{
+    /* #setto h2{
         font-size: 100%;
         position: relative;
         right: 25px;
@@ -203,7 +203,7 @@
         background: linear-gradient(to right, rgba(7, 15, 17, 0.797), rgba(4, 16, 20, 0.556));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-    }
+    } */
 
     #area{
         border: none;
@@ -273,7 +273,7 @@
         width: 52px;
         transition: 0.3s;
     }
-    #setto h2{
+    /* #setto h2{
         font-size: 12.5px;
         position: relative;
         right: 25px;
@@ -281,7 +281,7 @@
         background: linear-gradient(to right, rgba(7, 15, 17, 0.797), rgba(4, 16, 20, 0.556));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-    }
+    } */
 
     #area{
         border: none;
@@ -349,7 +349,7 @@
         width: 52px;
         transition: 0.3s;
     }
-    #setto h2{
+    /* #setto h2{
         font-size: 14px;
         position: relative;
         right: 25px;
@@ -357,7 +357,7 @@
         background: linear-gradient(to right, rgba(7, 15, 17, 0.797), rgba(4, 16, 20, 0.556));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-    }
+    } */
 
     #area{
         border: none;
